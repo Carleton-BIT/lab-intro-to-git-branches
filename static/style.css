@@ -1,0 +1,26 @@
+body, h1, h2, p, ul, li, form, label, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banana {
+    display: flex;
+    justify-content: center;
+}
+
+header, article, section, form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+p, ul, li {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}

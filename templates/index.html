@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href='static/style.css' />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit Blog</title>
+</head>
+<body>
+
+<header>
+    <h1>Why Bananas are the Best Fruit</h1>
+    <p>By Dr. C.H. Iquita</p>
+</header>
+
+<div class="banana"><img src="/static/banana.png" alt="Banana Picture" width=300"></div>
+
+
+<article>
+    <p>There are numerous fruits available in the market, but none can quite match the appeal of the humble banana. Here are a few reasons why bananas reign supreme:</p>
+    <ul>
+        <li>They're incredibly portable and come with their own natural packaging.</li>
+        <li>Rich in potassium, bananas are great for heart health.</li>
+        <li>They provide quick energy, making them a perfect snack before or after workouts.</li>
+        <li>They can be used in a variety of recipes, from smoothies to baked goods.</li>
+    </ul>
+    <p>In conclusion, whether you love their taste, health benefits, or convenience, there's no denying that bananas truly are the best fruit!</p>
+</article>
+
+<header><h1>Comments</h1></header>
+<section>
+    <mark>TODO: A form to allow users to sort comments by date</mark>
+    <hr>
+    {% for comment in comments %}
+        <p><strong>{{ comment.username }}</strong>: {{ comment.comment }}</p>
+    {% endfor %}
+</section>
+
+<header><h2>Leave your own comment</h2></header>
+
+<form action="/new-comment" method="post">
+  <label for="username">Username</label><br>
+  <input type="text" id="username" name="username"><br><br>
+
+  <label for="comment">Comment</label><br>
+  <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
