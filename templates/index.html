@@ -28,7 +28,6 @@
 
 <header><h1>Comments</h1></header>
 <section>
-    <hr>
     {% for comment in comments %}
         <p><strong>{{ comment.username }}</strong>: {{ comment.comment }}</p>
     {% endfor %}
