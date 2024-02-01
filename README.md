@@ -31,7 +31,7 @@ python main.py
 
 This will start a local server on `http://127.0.0.1:5000/`. Navigate to this URL in your web browser to view the application.
 
-## Features
+## Features (not all finished yet)
 
 - Display an article on why bananas are the best fruit.
 - Show a list of user comments on the article.
