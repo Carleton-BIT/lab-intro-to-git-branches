@@ -11,8 +11,8 @@ def home():
     return render_template('index.html', comments=comments)
 
 
-comments = [{"username": "applefan", "comment": "I like apples more"},
-            {"username": "jimmy", "comment": "This is banana propaganda #cherriesrule"}]
+comments = [{"user_name": "applefan", "user_comment": "I like apples more"},
+            {"user_name": "jimmy", "user_comment": "This is banana propaganda #cherriesrule"}]
 
 if __name__ == '__main__':
     app.run(debug=True)

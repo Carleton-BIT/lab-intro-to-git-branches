@@ -29,7 +29,7 @@
 <header><h1>Comments</h1></header>
 <section>
     {% for comment in comments %}
-        <p><strong>{{ comment.username }}</strong>: {{ comment.comment }}</p>
+        <p><strong>{{ comment.user_name }}</strong>: {{ comment.user_comment }}</p>
     {% endfor %}
 </section>
 
