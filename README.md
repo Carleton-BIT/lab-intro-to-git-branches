@@ -21,7 +21,7 @@ pip install Flask
 
 ### Installing
 
-1. Clone the repository to your local machine using `git clone https://github.com/Carleton-BIT/lab-git.git`
+1. Clone the repository to your local machine using `git clone https://github.com/Carleton-BIT/workshop-git-IMD2900.git`
 2. Navigate to the cloned directory.
 3. Run the Flask application:
 
