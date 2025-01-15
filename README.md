@@ -69,7 +69,7 @@ Review your pull request - you should have a MERGE CONFLICT identified in your p
 Resolve this merge conflict by:
 
 - Ensure your main branch is up to date `git pull origin main`
-- Merge your main branch into your branch. While you have the feature branch (e.g. jamesbrunet) checked out, run `git merge main`
+- Merge your main branch into your branch. While you have the feature branch (e.g. jamesbrunet) checked out, run git merge main
 - Resolve the merge conflict by viewing main.py and trying to incorporate the changes made in both branches into a single commit
 - When done, you can git commit your resolution and git push your feature branch
 - Then, you can view your pull request again - there should no longer be a merge conflict.
