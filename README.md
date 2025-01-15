@@ -52,11 +52,11 @@ This will start a local server on `http://127.0.0.1:5000/`. Navigate to this URL
 
 ## Step 3 - Pull Requests
 
-1) On the GitHub website, create a pull request for your branch that describes your change to the README and why you want to make it. If merged, this pull request should make changes to the main branch. Some relevant docs: [Creating a pull request - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request)
+1) On the GitHub website, create a pull request (DO NOT MERGE IT!) for your branch that describes your change to the README and why you want to make it. If merged, this pull request should make changes to the main branch. Some relevant docs: [Creating a pull request - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request)
 
-2) Look through the list of pull requests created by other students. Comment and react on two other pull requests (try to prioritize people who haven't gotten any comments yet), and review the changes other students made to their READMEs
+2) Look through the list of pull requests created by other students (DO NOT MERGE THEM!). Comment and react on two other pull requests (try to prioritize people who haven't gotten any comments yet), and review the changes other students made to their READMEs
 
-3) Going back to the project open on your computer, make one more change to the readme, commit the change, and push the change. You'll see that your pull request has been updated with the new commit.
+3) Going back to the project open on your computer, make one more change to the readme, commit the change, and push the change. You'll see that your pull request has been updated with the new commit (DO NOT MERGE IT!).
 
 **Before moving on to the next step, I need to set some things set up. If you get to this point, raise your hand to check if we've done that.**
 
@@ -73,6 +73,7 @@ Resolve this merge conflict by:
 - Resolve the merge conflict by viewing main.py and trying to incorporate the changes made in both branches into a single commit
 - When done, you can git commit your resolution and git push your feature branch
 - Then, you can view your pull request again - there should no longer be a merge conflict.
+- DON'T MERGE IT!
 
 ## About
 
