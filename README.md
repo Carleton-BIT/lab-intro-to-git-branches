@@ -64,7 +64,7 @@ This will start a local server on `http://127.0.0.1:5000/`. Navigate to this URL
 
 Review your pull request - you should have a MERGE CONFLICT identified in your pull request that prevents your branch from being merged! This is because I made changes to the main branch during this lab. Here's a visual description of what's going on and how we can deal with it:
 
-![](Git%20Lab%20Explanation%20Commit%20Tree.jpg)
+![](Git%20Lab%20Explanation%20Commit%20Tree.png)
 
 Resolve this merge conflict by:
 
