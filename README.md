@@ -34,14 +34,21 @@ This will start a local server on `http://127.0.0.1:5000/`. Navigate to this URL
 ## Step 2 - Making Commits
 
 1) Run this command to ensure you are using the Nano text editor: `git config --global core.editor "nano" `
+
 2) Create and switch to a new branch which is named after your mycarletonone username, in all lower case. For example, `jamesbrunet3`. You should create this branch in your local repository, not using the GitHub web interface, by running the command `git checkout -b jamesbrunet3` (instead of jamesbrunet3, put in your mycarletonone username)
+
 3) Verify you are on the correct branch by running `git status`:
 ![](check-branch.png)
-2) Look at main.py: Comments are stored in a list called "comments". Edit the comment from "jimmy" to say "Bananas are awesome, thanks for sharing.", and verify that the updated comment is visible in the application (you may need to restart the flask application by using ctrl-c and running `python main.py` again)
-3) Stage your change for commit using `git add .`
-4) Commit the changes with a descriptive commit message. E.G. `git commit -m "perform censorship"`
-5) Push your changes to your branch using `git push origin <your_branch_name>`
-6) Make a change of your choice to this README, commit this change to your branch with a descriptive message, and push your change to GitHub
+
+4) Look at main.py: Comments are stored in a list called "comments". Edit the comment from "jimmy" to say "Bananas are awesome, thanks for sharing.", and verify that the updated comment is visible in the application (you may need to restart the flask application by using ctrl-c and running `python main.py` again)
+
+5) Stage your change for commit using `git add .`
+
+6) Commit the changes with a descriptive commit message. E.G. `git commit -m "perform censorship"`
+
+7) Push your changes to your branch using `git push origin <your_branch_name>`
+
+8) Make a change of your choice to this README, commit this change to your branch with a descriptive message, and push your change to GitHub
 
 ## Step 3 - Pull Requests
 
